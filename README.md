@@ -18,14 +18,15 @@ result_flow.csv file mainly saves the OD flows contained in each pattern. The fi
 cid: WST-FP id
 oid: origin id of a flow in WST-FP
 did: destination id of a flowin WST-FP
-
-
-
-
-
-
-
 o_start_time: the earliest starting moment existing among all starting moments in the WST-FP
+
+
+
+
+
+
+
+
 o_end_time: the lastest starting moment existing among all starting moments in the WST-FP
 d_start_time: the earliest reaching moment existing among all starting moments in the WST-FP
 d_end_time: the lastest reaching moment existing among all starting moments in the WST-FP
