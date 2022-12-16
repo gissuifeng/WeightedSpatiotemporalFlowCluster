@@ -13,6 +13,55 @@ This repository contains two folders, the code in folder named 'WSTFP_AnyTime' c
 
 3. Output
 
+result_flow.csv file mainly saves the OD flows contained in each pattern. The file contains the following attributes
+
+cid: WST-FP id
+oid: origin id of a flow in WST-FP
+did: destination id of a flowin WST-FP
+o_start_time: the earliest starting moment existing among all starting moments in the WST-FP
+o_end_time: the lastest starting moment existing among all starting moments in the WST-FP
+d_start_time: the earliest reaching moment existing among all starting moments in the WST-FP
+d_end_time: the lastest reaching moment existing among all starting moments in the WST-FP
+o_during: The duration of the origin regions of the WST-FP
+d_during: The duration of the destination regions of the WST-FP
+v_value: Coverage rate of WST-FP
+s_value: Closeness rate of WST-FP
+c_value:  Composite value of WST-FP
+o_set_len: the number of child origin in origin group in WST-FP
+d_set_len: the number of child destination in destination group in WST-FP
+
+
+
+result_region.csv mainly used to save the information of the origin region and destination region of each pattern. The file contains the following attributes
+cid: WST-FP id
+region_type: the type of the region(origin or destination)
+region_id: the id of the region
+regionNum:  the number of child origin in origin group in WST-FP
+o_start_time: the earliest starting moment existing among all starting moments in the WST-FP
+o_end_time: the lastest starting moment existing among all starting moments in the WST-FP
+d_start_time: the earliest reaching moment existing among all starting moments in the WST-FP
+d_end_time:  the lastest reaching moment existing among all starting moments in the WST-FP
+o_during: The duration of the origin regions of the WST-FP
+d_during: The duration of the destination regions of the WST-FP
+v_value: Coverage rate of WST-FP
+s_value: Closeness rate of WST-FP
+c_value:  Composite value of WST-FP
+o_set_len: the number of child origin in origin group in WST-FP
+d_set_len: the number of child destination in destination group in WST-FP
+
+
+
+result_visual.csv  mainly used to show the origin set and destination set in a pattern. The file contains the following attributes
+cid: WST-FP id
+oset: all origins in WST-FP
+dest: all destination in WST-FP
+o_start_time: the earliest starting moment existing among all starting moments in the WST-FP
+o_end_time: the lastest starting moment existing among all starting moments in the WST-FP
+d_start_time: the earliest reaching moment existing among all starting moments in the WST-FP
+d_end_time:  the lastest reaching moment existing among all starting moments in the WST-FP
+v_value: Coverage rate of WST-FP
+s_value: Closeness rate of WST-FP
+c_value:  Composite value of WST-FP
 
 
 
