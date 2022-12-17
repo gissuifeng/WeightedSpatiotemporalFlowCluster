@@ -1,7 +1,7 @@
 ## WeightedSpatiotemporalFlowCluster
 Weighted origin-destination flow cluster method considering spatiotemporal continuity to reveal interregional association patterns
 
-An algorithm for mining interzonal flow patterns from weighted spatio-temporal origin-destination(OD) flows. The algorithm is implemented in python.
+An algorithm for mining interregional flow patterns from weighted spatiotemporal origin-destination(OD) flows. The algorithm is implemented in python.
 
 #### 1. Algorithm parameters
 
